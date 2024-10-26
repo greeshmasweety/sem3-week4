@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+font-family:outfit;
+}
+
+.slider{
+    -webkit-apperance: none;
+    height:100%;
+    background: transparent;
+}
+.slide::-webkit-slider-thumb{
+    apperance:none;
+    width:30px;
+    min-height: 30px;
+    background-image:url(/slide_icon.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-layer{
+    background-image: url(/bg_layer.png);
+}
